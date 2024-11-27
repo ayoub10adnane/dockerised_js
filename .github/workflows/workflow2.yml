@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/your-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/dockerized_js:latest
